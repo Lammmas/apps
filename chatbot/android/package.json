@@ -1,11 +1,11 @@
 {
-  "name": "13virtues-android",
+  "name": "chatbot-android",
   "version": "0.0.1",
-  "description": "Android hybrid application 13virtues",
+  "description": "Android hybrid application frontend for chatbot",
   "license": "MIT",
   "repository": "https://github.com/Lammmas/apps",
   "nativescript": {
-    "id": "org.devpurr.13virtues"
+    "id": "org.devpurr.chatbot"
   },
   "dependencies": {
     "@angular/animations": "~4.1.0",

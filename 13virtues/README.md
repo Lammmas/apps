@@ -26,9 +26,3 @@ Platform	Android
 Language	TypeScript
 Framework	NativeScript on Angular 2
 ```
-
-## Backend
-```
-Language	TypeScript
-Framework	Nest on Express & socket.io
-```

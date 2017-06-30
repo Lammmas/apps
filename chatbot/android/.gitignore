@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+
+# tests
+/.nyc_output
+
+# dist
+/dist
+/platforms
+/hooks
