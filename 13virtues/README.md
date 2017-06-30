@@ -16,7 +16,7 @@ An app for tracking your virtues for self improvement - based on Benjamin Frankl
 12. **Chastity** Rarely use venery but for health or offspring, never to dullness, weakness, or the injury of your own or another's peace or reputation.
 13. **Humility** Imitate Jesus and Socrates.
 
-# Exercise
+## Exercise
 
 Using calendar and graph integration, along with full-screen notification on Android.
 

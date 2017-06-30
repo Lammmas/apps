@@ -2,7 +2,7 @@
 
 A bot that will talk to you about menial things, as well as help you keep todos and reminders.
 
-# Exercise
+## Exercise
 
 Using an existing learning chatbot library (not writing own), as well as providing push notifications and socket communications
 

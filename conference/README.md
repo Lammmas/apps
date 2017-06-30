@@ -4,7 +4,7 @@ Conference utility app for whitelabelling. Lists conference details, speakers, e
 
 Allows user to mark events they want to go to, highlighting conflicts, and showing notifications
 
-# Exercise
+## Exercise
 
 ### Frontend
 ```

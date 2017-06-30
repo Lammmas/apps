@@ -4,9 +4,12 @@ There are multiple sources for ideas, ex [tastejs awesome app ideas](https://git
 
 ### Planned
 
-- 13 Virtues
-- Chatbot
-- Conference
+1. Fridge Manager
+2. 13 Virtues
+3. Conference
+4. Pizza planner
+5. Tic-Tac-Go
+6. Chatbot
 
 ### In Progress
 
