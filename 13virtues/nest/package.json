@@ -1,0 +1,28 @@
+{
+  "name": "13virtues-nest",
+  "version": "0.0.1",
+  "description": "Nest backend for 13virtues app",
+  "license": "MIT",
+  "repository": "https://github.com/Lammmas/apps",
+  "scripts": {
+    "start": "node index.js",
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/server.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "*",
+    "@nestjs/core": "*",
+    "@nestjs/microservices": "*",
+    "@nestjs/testing": "*",
+    "@nestjs/websockets": "*",
+    "body-parser": "^1.17.2",
+    "redis": "^2.7.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.0",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "ts-node": "^2.1.0"
+  }
+}
