@@ -2,6 +2,8 @@ Repository for collecting apps made with different frameworks for exercises, tri
 
 There are multiple sources for ideas, ex [tastejs awesome app ideas](https://github.com/tastejs/awesome-app-ideas)
 
+All finished projects go into Downloads folder, where ex. APK-s can be downloaded
+
 ### Planned
 
 1. Fridge Manager
