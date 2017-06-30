@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Android hybrid application frontend for fridge manager",
   "license": "MIT",
-  "repository": "https://github.com/Lammmas/apps",
+  "repository": "https://github.com/Lammmas/apps/tree/master/fridgemanager",
   "nativescript": {
     "id": "org.devpurr.fridget"
   },
