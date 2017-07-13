@@ -1,11 +1,14 @@
 {
-  "name": "fridget-android",
+  "name": "fridgefrog-android",
   "version": "0.0.1",
   "description": "Android hybrid application frontend for fridge manager",
   "license": "MIT",
   "repository": "https://github.com/Lammmas/apps/tree/master/fridgemanager",
   "nativescript": {
-    "id": "org.devpurr.fridget"
+    "id": "org.devpurr.fridgefrog.beta",
+    "tns-android": {
+      "version": "3.1.1"
+    }
   },
   "dependencies": {
     "@angular/animations": "~4.1.0",
@@ -18,13 +21,35 @@
     "@angular/router": "~4.1.0",
     "nativescript-angular": "~3.1.0",
     "nativescript-theme-core": "~1.0.2",
+    "nativescript-timedatepicker": "^1.2.0",
     "reflect-metadata": "~0.1.8",
     "rxjs": "~5.3.0",
     "tns-core-modules": "~3.1.0",
     "zone.js": "~0.8.2"
   },
   "devDependencies": {
+    "@angular/compiler-cli": "~4.1.0",
+    "@ngtools/webpack": "~1.4.0",
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "copy-webpack-plugin": "~4.0.1",
+    "extract-text-webpack-plugin": "~2.1.0",
+    "lazy": "1.0.11",
+    "nativescript-css-loader": "~0.26.0",
     "nativescript-dev-typescript": "~0.5.0",
-    "typescript": "~2.2.1"
+    "nativescript-dev-webpack": "^0.7.1",
+    "raw-loader": "~0.5.1",
+    "resolve-url-loader": "~2.0.2",
+    "typescript": "~2.2.1",
+    "webpack": "~3.0.0",
+    "webpack-bundle-analyzer": "^2.8.2",
+    "webpack-sources": "~1.0.1"
+  },
+  "scripts": {
+    "ns-bundle": "ns-bundle",
+    "start": "npm run ns-bundle --android --run-app",
+    "build": "npm run ns-bundle --android --build-app",
+    "snapshot": "generate-android-snapshot --targetArchs arm,arm64,ia32 --install"
   }
 }

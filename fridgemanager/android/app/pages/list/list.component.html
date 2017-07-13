@@ -1,0 +1,21 @@
+<TabView>
+    <StackLayout *tabItem="{title: 'Fridge'}" >
+        <ListView [items]="fridge" class="list-group">
+            <Label [nsRouterLink]="['/add', 'fridge']" [text]="item.name" class="list-group-item"></Label>
+            <ng-template let-item="item">
+                <Label [nsRouterLink]="['/edit', item.id]" [text]="item.name" class="list-group-item"></Label>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Shopping'}">
+        <ListView [items]="shopping" class="list-group">
+            <Label [nsRouterLink]="['/add', 'shopping']" [text]="item.name" class="list-group-item"></Label>
+            <ng-template let-item="item">
+                <Label [nsRouterLink]="['/edit', item.id]" [text]="item.name" class="list-group-item"></Label>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Settings'}">
+        <Label text="Here will be settings"></Label>
+    </StackLayout>
+</TabView>

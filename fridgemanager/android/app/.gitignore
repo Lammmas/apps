@@ -1,0 +1,2 @@
+# because tns doesn't want .js files anywhere but besides the .ts files, and we don't want to commit them
+*.js

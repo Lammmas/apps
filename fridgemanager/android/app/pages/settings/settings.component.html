@@ -1,0 +1,20 @@
+<ActionBar title="">
+    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" (tap)="goBack()"></NavigationButton>
+    <ActionItem (tap)="submitBack()"
+      ios.systemIcon="0" ios.position="right"
+      android.systemIcon="ic_cab_done_holo_light"
+      android.position="actionBar"></ActionItem>
+</ActionBar>
+
+<StackLayout orientation="vertical" padding="16px">
+    <StackLayout class="input-field">
+        <Switch checked="settings.auto" row="1" col="0"></Switch>
+        <Label class="label" text="Auto transfer items" row="3" col="1"></Label>
+    </StackLayout>
+    <StackLayout class="input-field">
+        <Switch checked="settings.notify" row="2" col="0"></Switch>
+        <Label class="label" text="Auto transfer items" row="3" col="1"></Label>
+    </StackLayout>
+    <Button text="Help" (tap)="goHelp()"></Button>
+    <Button text="About" (tap)="goAbout()"></Button>
+</StackLayout>

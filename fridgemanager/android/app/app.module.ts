@@ -1,14 +1,16 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
+
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
-import { ItemService } from "./item/item.service";
-import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
+import { ListComponent } from "./pages/list/list.component";
+import { AddComponent } from "./pages/add/add.component";
+import { EditComponent } from "./pages/edit/edit.component";
+import { SettingsComponent } from "./pages/settings/settings.component";
 
-// Uncomment and add to NgModule imports if you need to use two-way binding
-// import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { ItemService, SettingsService } from "./shared";
 
 // Uncomment and add to NgModule imports  if you need to use the HTTP wrapper
 // import { NativeScriptHttpModule } from "nativescript-angular/http";
@@ -19,15 +21,19 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     ],
     imports: [
         NativeScriptModule,
+        NativeScriptFormsModule,
         AppRoutingModule
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
-        ItemDetailComponent
+        ListComponent,
+        AddComponent,
+        EditComponent,
+        SettingsComponent,
     ],
     providers: [
-        ItemService
+        ItemService,
+        SettingsService,
     ],
     schemas: [
         NO_ERRORS_SCHEMA

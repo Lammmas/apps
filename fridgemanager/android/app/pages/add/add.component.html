@@ -1,0 +1,30 @@
+<ActionBar title="">
+    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" (tap)="goBack()"></NavigationButton>
+    <ActionItem (tap)="submitBack()"
+      ios.systemIcon="0" ios.position="right"
+      android.systemIcon="ic_cab_done_holo_light"
+      android.position="actionBar"></ActionItem>
+</ActionBar>
+
+<StackLayout orientation="vertical" padding="16px">
+    <StackLayout class="input-field">
+        <Label class="label" text="Name" row="1" col="0" textWrap="true"></Label>
+        <TextField class="input input-border" id="nameField" hint="Product name" [(ngModel)]="item.name" row="1" col="1" (returnPress)="submit()"></TextField>
+    </StackLayout>
+    <StackLayout class="input-field">
+        <Label class="label" text="Expiry" row="2" col="0" textWrap="true"></Label>
+        <TextField class="input input-border" id="expiryField" hint="Enter date" [text]="item.expiry" (tap)="showExpiryPicker()" row="2" col="1" returnKeyType="done" (returnPress)="submit()"></TextField>
+    </StackLayout>
+    <StackLayout class="input-field">
+        <Switch checked="item.auto" row="3" col="0"></Switch>
+        <Label class="label" text="Auto transfer" row="3" col="1"></Label>
+    </StackLayout>
+    <StackLayout class="input-field" *ngIf="item.location == 'fridge'">
+        <Switch checked="item.open" row="4" col="0"></Switch>
+        <Label class="label" text="Opened" row="4" col="1"></Label>
+    </StackLayout>
+    <StackLayout class="input-field" *ngIf="item.open">
+        <Label class="label" text="Opened" row="5" col="0" textWrap="true"></Label>
+        <TextField class="input input-border" id="openedField" hint="Enter date" [text]="item.opened" (tap)="showOpenPicker()" row="5" col="1" returnKeyType="done" (returnPress)="submit()"></TextField>
+    </StackLayout>
+</StackLayout>

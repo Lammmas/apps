@@ -10,6 +10,6 @@
 /.nyc_output
 
 # dist
-/dist
 /platforms
-/hooks
+/report
+*.log
