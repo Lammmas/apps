@@ -4,7 +4,7 @@ import { Settings } from "./settings";
 
 @Injectable()
 export class SettingsService {
-    private settings = new Settings;
+    private settings: Settings = new Settings();
 
     getSettings(): Settings {
         return this.settings;

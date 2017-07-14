@@ -5,10 +5,9 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
-import { ListComponent } from "./pages/list/list.component";
+import { HomeComponent } from "./pages/home/home.component";
 import { AddComponent } from "./pages/add/add.component";
 import { EditComponent } from "./pages/edit/edit.component";
-import { SettingsComponent } from "./pages/settings/settings.component";
 
 import { ItemService, SettingsService } from "./shared";
 
@@ -26,10 +25,9 @@ import { ItemService, SettingsService } from "./shared";
     ],
     declarations: [
         AppComponent,
-        ListComponent,
+        HomeComponent,
         AddComponent,
         EditComponent,
-        SettingsComponent,
     ],
     providers: [
         ItemService,

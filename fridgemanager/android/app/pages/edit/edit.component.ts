@@ -23,6 +23,7 @@ export class EditComponent implements OnInit {
         let item = this.itemService.getItem(id);
 
         if (item !== null) this.item = item;
+        else this.goBack();
     }
 
     showExpiryPicker(): void {

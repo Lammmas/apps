@@ -1,0 +1,34 @@
+<TabView class="tab-view">
+    <StackLayout *tabItem="{title: 'Fridge'}" >
+        <ListView [items]="fridge" class="list-group">
+            <Label [nsRouterLink]="['/add', 'fridge']" text="Add" class="list-group-item"></Label>
+            <ng-template let-item="item">
+                <Label [nsRouterLink]="['/edit', item.id]" [text]="item.name" class="list-group-item"></Label>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Shopping'}">
+        <ListView [items]="shopping" class="list-group">
+            <Label [nsRouterLink]="['/add', 'shopping']" text="Add" class="list-group-item"></Label>
+            <ng-template let-item="item">
+                <Label [nsRouterLink]="['/edit', item.id]" [text]="item.name" class="list-group-item"></Label>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Settings'}" orientation="vertical">
+        <StackLayout class="form">
+            <GridLayout rows="auto auto" columns="* *" class="input-field input-sides p-x-16 p-y-8">
+                <Label text="Auto transfer items" row="0" col="0"></Label>
+                <Switch [checked]="settings.auto" (checkedChange)="onAutoChecked($event)" row="0" col="1" class="switch right"></Switch>
+            </GridLayout>
+            <GridLayout rows="auto auto" columns="* *" class="input-field input-sides p-x-16 p-y-8">
+                <Label class="label" text="Show notifications" row="0" col="0"></Label>
+                <Switch [checked]="settings.notify" (checkedChange)="onNotifyChecked($event)" row="0" col="1" class="switch right"></Switch>
+            </GridLayout>
+        </StackLayout>
+        <StackLayout orientation="vertical" clas="form">
+            <Button text="Help" (tap)="goHelp()" class="btn btn-outline"></Button>
+            <Button text="About" (tap)="goAbout()" class="btn btn-outline"></Button>
+        </StackLayout>
+    </StackLayout>
+</TabView>

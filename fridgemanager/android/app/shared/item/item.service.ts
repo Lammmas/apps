@@ -8,6 +8,7 @@ export class ItemService {
         { id: 1, name: "Eggs", expiry: "13.07.2017", location: 'fridge', deleted: false, auto: true, open: true, opened: "10.07.2017" },
         { id: 2, name: "Milk", expiry: "15.07.2017", location: 'fridge', deleted: false, auto: true, open: false, opened: "" },
         { id: 3, name: "Milk", expiry: "", location: 'shopping', deleted: false, auto: false, open: false, opened: "" },
+        { id: 4, name: "Meat", expiry: "", location: 'shopping', deleted: true, auto: false, open: false, opened: "" },
     );
 
     getItems(): Item[] {
