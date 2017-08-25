@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg5329"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="13v3.svg">
+  <defs
+     id="defs5331">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter6332">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood6334" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite6336" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="5"
+         result="blur"
+         id="feGaussianBlur6338" />
+      <feOffset
+         dx="5"
+         dy="7.5"
+         result="offset"
+         id="feOffset6340" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite6342" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="360.79777"
+     inkscape:cy="555.15425"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1147"
+     inkscape:window-x="1192"
+     inkscape:window-y="691"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5334">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter6332)"
+       d="m 145,142.36133 -77.857422,100 77.857422,0 0,600 80,0 0,-100 c 0,0 81.21385,101.56357 138,100 84.56438,-2.32843 186.72633,-76.02973 197,-160 9.62642,-78.68008 -143,-190 -143,-190 0,0 156.025,-121.26116 143,-203 -12.89337,-80.91275 -115.06843,-146.4269 -197,-147 -56.80628,-0.39735 -138,100 -138,100 l 0,-100 z m 197.44922,78.61328 c 68.48681,0 116.92742,25.6427 133.11328,73.71094 7.53291,22.371 -21.83137,58.04035 -28.58203,64.79101 l -83.09375,83.0918 c -4.85631,4.85631 -11.06291,7.63102 -17.94161,8.6407 -2.25534,0.81138 -95.41972,1.00969 -95.41972,1.00969 -13.50674,0 -24.42263,-12.88265 -24.38086,-28.88672 l 0.23653,-90.6237 c 0.23654,-6.04754 3.0733,-13.41073 8.6541,-18.99153 l 83.09179,-83.0918 c 4.67158,-4.67158 10.59276,-7.41917 16.93164,-8.30664 2.32961,-0.87149 4.81166,-1.34375 7.39063,-1.34375 z m -91.92383,306 95.41972,1.00968 c 6.8787,1.00969 13.0853,3.7844 17.94161,8.64071 l 83.09375,83.0918 c 6.75066,6.75066 36.11494,42.42001 28.58203,64.79101 -16.18586,48.06824 -64.62647,73.71094 -133.11328,73.71094 -2.57897,0 -5.06102,-0.47226 -7.39063,-1.34375 -6.33888,-0.88747 -12.26006,-3.63506 -16.93164,-8.30664 l -83.09179,-83.0918 c -5.5808,-5.5808 -8.41756,-12.944 -8.6541,-18.99153 -0.18064,-1.4234 -0.23653,-90.6237 -0.23653,-90.6237 0,-16.00412 10.87488,-29.02963 24.38086,-28.88672 z"
+       id="rect5879"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccsscsscccsssscsscsscsscsssscsscss" />
+  </g>
+</svg>
