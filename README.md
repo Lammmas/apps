@@ -6,13 +6,14 @@ All finished projects go into Downloads folder, where ex. APK-s can be downloade
 
 ### Planned
 
-1. Fridge Manager
-2. 13 Virtues
-3. Conference
-4. Pizza planner
-5. Tic-Tac-Go
-6. Chatbot
+1. 13 Virtues
+2. Conference
+3. Pizza planner
+4. Tic-Tac-Go
+5. Chatbot
 
 ### In Progress
+
+1. Fridge Manager
 
 ### Done
